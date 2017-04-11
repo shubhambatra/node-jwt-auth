@@ -1,0 +1,30 @@
+{
+  "name": "key",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "NODE_PATH=. babel-node --stage 1 server.js",
+    "nodemon:server": "NODE_PATH=. nodemon --exec \"babel-node --stage 1\" server.js"
+  },
+  "author": "'Shubham Batra'",
+  "license": "MIT",
+  "devDependencies": {
+    "babel": "^5.8.34",
+    "babel-eslint": "^4.1.6",
+    "nodemon": "^1.8.1"
+  },
+  "dependencies": {
+    "async": "^2.1.4",
+    "body-parser": "^1.17.1",
+    "cheerio": "^0.22.0",
+    "ejs": "^2.5.5",
+    "express": "^4.15.2",
+    "jsonwebtoken": "^7.3.0",
+    "mongojs": "^2.4.0",
+    "mongoose": "^4.9.4",
+    "morgan": "^1.8.1",
+    "request": "^2.81.0"
+  }
+}
